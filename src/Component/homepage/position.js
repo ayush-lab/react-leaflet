@@ -9,6 +9,7 @@ const AddMarker = ()=>{
             click(e) {
                setPosition(e.latlng)
                console.log(e.latlng);
+               alert(e.latlng)
             },
            
           })
